@@ -1,3 +1,10 @@
-export const add = (a: number, b: number): number => {
-  return a + b
+import { sleep } from '@lukaspolak/sleep'
+
+export async function waitForTimeout<T>(
+  callback: () => T,
+  timeout = 500
+): Promise<T> {
+  await sleep(timeout)
+
+  return callback()
 }

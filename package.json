@@ -1,9 +1,14 @@
 {
-  "name": "@lukaspolak/create-typescript-library",
-  "version": "0.0.0",
+  "name": "@lukaspolak/wait-for-timeout",
+  "version": "0.0.1",
   "description": "A repository template for a TypeScript library.",
-  "keywords": [],
-  "repository": "git@github.com:lukaspolak/create-typescript-library.git",
+  "keywords": [
+    "promise",
+    "wait",
+    "waitFor",
+    "waitForPromise"
+  ],
+  "repository": "git@github.com:lukaspolak/wait-for-timeout.git",
   "license": "MIT",
   "author": "Lukas Polak <lukash.polak@gmail.com> (https://lukaspolak.com/)",
   "main": "lib/umd/index.js",
@@ -43,6 +48,9 @@
     ]
   },
   "prettier": "@lukaspolak/prettier-config",
+  "dependencies": {
+    "@lukaspolak/sleep": "^0.0.1"
+  },
   "devDependencies": {
     "@lukaspolak/prettier-config": "^0.0.3",
     "@rollup/plugin-commonjs": "^17.1.0",
