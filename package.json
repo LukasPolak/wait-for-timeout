@@ -1,6 +1,6 @@
 {
   "name": "@lukaspolak/wait-for-timeout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise based utility function that return a value after specified timeout.",
   "keywords": [
     "promise",
