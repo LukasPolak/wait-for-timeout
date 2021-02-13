@@ -1,7 +1,7 @@
 {
   "name": "@lukaspolak/wait-for-timeout",
   "version": "0.0.1",
-  "description": "A repository template for a TypeScript library.",
+  "description": "Promise based utility function that return a value after specified timeout.",
   "keywords": [
     "promise",
     "wait",

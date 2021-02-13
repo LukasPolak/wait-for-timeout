@@ -4,6 +4,10 @@
 
 Promise based utility function that return a value after specified timeout.
 
+## Demo
+
+[CodeSandbox](https://codesandbox.io/s/wait-for-timeout-o6291?file=/src/App.tsx)
+
 ## Getting started
 
 To use this package, you only need to install this dependency, import it and invoke the `waitForTimeout` function, e.g.:
